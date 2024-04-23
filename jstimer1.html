@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Project</title>
+    <link rel="stylesheet" href="jstimer1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=tangerine">
+
+    <script src="https://kit.fontawesome.com/00cd712008.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="background">
+        <div id="intialText"class="container">
+            <h1>Kindly Enter Yoour Date Of Birth</h1>
+        </div>
+        <div id="afterDobButton" class="container">
+           <div class="center">
+            <h1>How much life journey covered,still now</h1>
+            <div class="time-container">
+                <h2>
+                    <div id="years">0</div>
+                    Years
+                </h2>
+                <h2>
+                    <div id="months">0</div>
+                    Months
+                </h2>
+                <h2>
+                    <div id="days">0</div>
+                    Days
+                </h2>
+                <h2>
+                    <div id="hours">0</div>
+                    Hours
+                </h2>
+                <h2>
+                    <div id="minutes">0</div>
+                    Minutes
+                </h2>
+                <h2>
+                    <div id="seconds">0</div>
+                    Seconds
+                </h2>
+            </div>
+           </div>
+        </div>
+
+        <div class="settings">
+            <i id="settingIcon" class="fa fa-cog"></i>
+
+            <div id="settingContent" class="settings-content hide">
+                <input type="date" id="dobInput" name="date">
+                <button id="dobButton" class="btn-primary">Click me</button>
+            </div>
+        </div>
+    </div>
+    <script src="jstimer1.js"></script>
+</body>
+
+</html>
